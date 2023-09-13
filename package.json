@@ -9,9 +9,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "esbuild": "^0.19.2"
   },
-  "devdependencies": {
-    "esbuild": "0.19.2"
+  "dependencies": {
+    "tone": "^14.7.77"
   }
 }
