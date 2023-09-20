@@ -13,7 +13,7 @@ const rows =
     [0, 1, 2, 3, 4, 5, 6, 7, 8],
     [0, 1, 2, 3, 4, 5, 6, 7, 8],
 Tone.transport.scheduleRepeat(repeat, 8n);
-function repeat(time) 
+function repeat(time) {
     let step = index  % 8;
     for (let i = 0; i < synths.length; i++) {
         let synth = synths[i],
@@ -26,7 +26,8 @@ function repeat(time)
         }
         index++;
         index %= 8;
-    };
+        };
+    }
 
     Tone.Transport.scheduleRepeat(repeat, 8n);
 
