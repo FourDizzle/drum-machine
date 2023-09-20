@@ -1,0 +1,12 @@
+.machine {
+  display: table-row;
+}
+
+.step {
+  display: table-cell;
+  border: 2px solid #aaa;
+}
+
+.active-step {
+  border: 2px solid #d44;
+}

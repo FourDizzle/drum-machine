@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node esbuild.config.mjs",
+    "build": "node esbuild.config.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.6.1",
     "esbuild": "^0.19.2"
   },
   "dependencies": {
